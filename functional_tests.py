@@ -14,7 +14,7 @@ class NewVisitorTest(unittest.TestCase):
         self.browser.quit()
 
     def test_can_start_a_list_and_retrieve_it_later(self):
-        """тест: можно начяать список и получить его позже"""
+        """тест: можно начать список и получить его позже"""
         # Домашняя страница приложения со списком дел
         self.browser.get('http://localhost:8000')
 
